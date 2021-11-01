@@ -6,7 +6,9 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World 2021!");
+            int nYear = DateTime.Now.Year;
+
+            Console.WriteLine("Hello World {0}!", nYear);
         }
     }
 }
